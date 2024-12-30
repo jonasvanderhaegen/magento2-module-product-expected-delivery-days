@@ -1,0 +1,21 @@
+{
+  "name": "jvdh/module-product-expected-delivery-days",
+  "version": "1.0.0",
+  "description": "Display expected delivery days on product page with product attribute",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-catalog": "104.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jvdh\\ProductExpectedDeliveryDays\\": ""
+    }
+  }
+}

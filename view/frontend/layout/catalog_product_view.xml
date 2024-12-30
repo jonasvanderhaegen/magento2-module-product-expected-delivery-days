@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.type">
+            <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.custom_expected_delivery_days" template="Magento_Catalog::product/view/attribute.phtml" after="product.info.type">
+                <arguments>
+                    <argument name="at_call" xsi:type="string">getCustomExpectedDeliveryDays</argument>
+                    <argument name="at_label" xsi:type="string">Expected delivery</argument>
+                    <argument name="at_code" xsi:type="string">custom_expected_delivery_days</argument>
+                    <argument name="css_class" xsi:type="string">custom_expected_delivery_days</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
